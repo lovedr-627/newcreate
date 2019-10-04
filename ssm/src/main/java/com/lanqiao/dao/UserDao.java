@@ -8,6 +8,7 @@ import com.lanqiao.model.User;
 
 public interface UserDao {
 	//List<User> getAll();
+	//小脚丫
 	List<User> getAll(User user);
 	User Login(String username,String password);
 	int register(User user);
