@@ -6,6 +6,7 @@ import com.github.pagehelper.PageInfo;
 import com.lanqiao.model.User;
 
 public interface UserService {
+	//这是一个神话
 	PageInfo<User> getpage(int pageno,int pagesize,User user) ;
 	User Login(String username,String password);
 	int register(User user);
