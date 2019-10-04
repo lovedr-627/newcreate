@@ -1,6 +1,7 @@
 package com.lanqiao.model;
 
 public class User {
+	//我爱你丁瑞
 	
 	private int id;
 	private String username;
